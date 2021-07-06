@@ -3,6 +3,9 @@
 
 ##        CONVOLUTIONAL NEURAL NETWORKS
 
+
+![Image text](https://github.com/karinaic/machine_learning_project/blob/main/project/src/german_trafic_.png)
+
 ### Project Description
 ---
 

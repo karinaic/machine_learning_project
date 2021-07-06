@@ -8,6 +8,29 @@ import json
 path = os.path.dirname(__file__)
 import utils.visualization_tb as vt
 
+from tensorflow.keras.models import load_model
+from tensorflow.keras.preprocessing.image import img_to_array, load_img
+import numpy as np
+
+
+@st.cache(allow_output_mutation=True)
+# AQUI IRA MI MODELO GUARDADOdef get_model():
+        #model = load_model('Model/Traffic_Sign_Classifier_CNN.hdf5')
+        #print('Model Loaded')
+        #return model 
+
+        
+#def predict(image):
+        #loaded_model = get_model()
+        #image = load_img(image, target_size=(32, 32), color_mode = "grayscale")
+        #image = img_to_array(image)
+        #image = image/255.0
+        #image = np.reshape(image,[1,32,32,1])
+
+        #classes = loaded_model.predict_classes(image)
+
+        #return classes
+
 
 def configuracion():
     st.set_page_config(page_title='Global Vaccination Covid19', page_icon=':electric_plug:', layout="wide")
@@ -38,3 +61,5 @@ def menu_graphs():
     csv_path = dir(dir(path)) + os.sep + 'data' + os.sep+'country_vaccinations_cleaned.csv'
     df = pd.read_csv(csv_path)
     st.pyplot(vis.serie_temporal(data))
+
+

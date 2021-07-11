@@ -17,7 +17,7 @@ def frequency_class(df):
     plt.savefig('../resources/number_samples_class.png') 
 
 def labels_images(x):
-    plt.figure(figsize=(10, 10))
+    plt.figure(figsize=(10, 15))
     for images, labels in x.take(1):
         for i in range(9):
             ax = plt.subplot(3, 3, i + 1)
@@ -55,5 +55,18 @@ def plot_loss(x):
     plt.legend()
     plt.savefig('../resources/plot_loss.png')
 
+def distribucion_clases(train,test):
+    fig, axs = plt.subplots(1, 2, sharex=True, sharey=True, figsize=(25, 6))
+    axs[0].set_title('Train classes distribution')
+    axs[0].set_xlabel('Class')
+    axs[0].set_ylabel('Count')
+    axs[1].set_title('Test classes distribution')
+    axs[1].set_xlabel('Class')
+    axs[1].set_ylabel('Count')
 
+    sns.countplot(train.ClassId, ax=axs[0])
+    sns.countplot(test.ClassId, ax=axs[1])
+    axs[0].set_xlabel('Class ID');
+    axs[1].set_xlabel('Class ID');
+    plt.savefig('../resources/imagen_size_distribucion.png')
 

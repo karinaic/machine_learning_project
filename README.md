@@ -6,7 +6,7 @@
 ## REDES NEURONALES CONVOLUCIONALES
 
 
-![Image text](https://github.com/karinaic/machine_learning_project/blob/main/project/src/german_trafic_.png)
+![Image text](https://github.com/karinaic/machine_learning_project/blob/main/resources/german_trafic_.png)
 
 ### Descripción del Proyecto:
 
@@ -63,7 +63,7 @@ las adyacentes por medio de conexiones, las cuales tienen asociado un peso.
 
 ### Red Neuronal Artificial
 
-![imagen](../resources/red_neuronal_artificial.png)
+![imagen](https://github.com/karinaic/machine_learning_project/blob/main/resources/red_neuronal_artificial.png)
 
 ### La Red Neuronal Convolucional
 La Red Neuronal Convolucional (Convolutional Neuronal Network, CNN o ConvNet) es una clase
@@ -71,7 +71,7 @@ de red de aprendizaje profundo, aplicada en el análisis visual de imágenes. La
 aplicaciones que tiene son reconocimiento de imágenes y vídeos, clasificación de imágenes y 
 procesamiento del lenguaje natural
 
-![imagen](../resources/cnn.jpg)
+![imagen](https://github.com/karinaic/machine_learning_project/blob/main/resources/cnn.jpg)
 
 Este tipo de Red Neuronal, por medio de entrenamiento y aprendizaje supervisado, intenta 
 imitar cómo funciona las neuronas en la corteza visual de nuestro cerebro. Por lo tanto, estas 
@@ -82,7 +82,7 @@ identificar formas complejas.
 A continuación, vamos a mostrar las formas que sería capaz de reconocer cada capa de una CNN.
 Realmente, son las formas que hace que una neurona de esa capa maximice su activación.
 
-![imagen](../resources/ejemplo_imagen.png)
+![imagen](https://github.com/karinaic/machine_learning_project/blob/main/resources/ejemplo_imagen.png)
 
 #### CLASIFICACIÓN DE SEÑALES DE TRÁFICO 
 
